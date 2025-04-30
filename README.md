@@ -36,7 +36,7 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
 
 2. **Clone o repositório**
    ```bash
-   git clone [URL_DO_SEU_REPOSITÓRIO]
+   git clone https://github.com/Gabriel-Xander/Historia_Viva.git
    cd Historia_Viva
    ```
 

@@ -1,8 +1,9 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
+import '../config/api_keys.dart';
 
 class GeminiService {
-  final String apiKey = 'AIzaSyABY9n42vpOGYngHSktYA4gUUp9_dH9TyY';
+  final String apiKey = ApiKeys.geminiApiKey;
   final String baseUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent';
 
   Future<String> generateStory(String prompt) async {
