@@ -10,7 +10,6 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
 
 - 🎤 Reconhecimento de voz em português
 - 🤖 Geração de histórias usando IA (Google Gemini)
-- 🗣️ Narração automática das histórias
 - 📋 Cópia fácil do texto gerado
 - 🎨 Interface moderna e responsiva
 - 🔄 Timeout automático do microfone após 5 segundos de silêncio
@@ -55,7 +54,6 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
 2. **Clone o repositório**
    ```bash
    git clone https://github.com/Gabriel-Xander/Historia_Viva.git
-   cd Historia_Viva
    ```
 
 3. **Instale as dependências**
@@ -64,7 +62,7 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
    ```
 
 4. **Configure a API Key**
-   - Substitua a API Key do Google Gemini no arquivo `lib/services/gemini_service.dart`
+   - Substitua a API Key do Google Gemini no arquivo, ou utilize a que está disponivel na aplicação `lib/services/gemini_service.dart`
    ```dart
    final String apiKey = 'SUA_API_KEY';
    ```
