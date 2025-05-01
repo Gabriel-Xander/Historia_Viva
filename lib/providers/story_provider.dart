@@ -12,11 +12,13 @@ class StoryProvider with ChangeNotifier {
   String _userInput = '';
   bool _isLoading = false;
   bool _isListening = false;
+  bool _isEditing = false;
 
   String get currentStory => _currentStory;
   String get userInput => _userInput;
   bool get isLoading => _isLoading;
   bool get isListening => _isListening;
+  bool get isEditing => _isEditing;
 
   Future<void> initialize() async {
     await _speechService.initialize();
@@ -24,6 +26,7 @@ class StoryProvider with ChangeNotifier {
 
   Future<void> startListening() async {
     _isListening = true;
+    _isEditing = false;
     notifyListeners();
 
     await _speechService.startListening(
@@ -41,6 +44,21 @@ class StoryProvider with ChangeNotifier {
   Future<void> stopListening() async {
     await _speechService.stopListening();
     _isListening = false;
+    notifyListeners();
+  }
+
+  void startEditing() {
+    _isEditing = true;
+    notifyListeners();
+  }
+
+  void updateUserInput(String text) {
+    _userInput = text;
+    notifyListeners();
+  }
+
+  void stopEditing() {
+    _isEditing = false;
     notifyListeners();
   }
 
@@ -70,6 +88,7 @@ class StoryProvider with ChangeNotifier {
 
   void clearInput() {
     _userInput = '';
+    _isEditing = false;
     notifyListeners();
   }
 

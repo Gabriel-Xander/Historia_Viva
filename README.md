@@ -15,6 +15,24 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
 - 🎨 Interface moderna e responsiva
 - 🔄 Timeout automático do microfone após 5 segundos de silêncio
 
+## 📸 Screenshots
+
+### Tela Inicial
+![Tela Inicial](screenshots/tela_inicial.png)
+*Tela inicial do aplicativo, mostrando a interface limpa e intuitiva.*
+
+### Modo de Digitação
+![Modo de Digitação](screenshots/modo_digitacao.png)
+*Interface de digitação, permitindo entrada manual da ideia para a história.*
+
+### Geração de História
+![História Gerada](screenshots/historia_gerada.png)
+*Exemplo de uma história gerada pela IA, com opções de copiar e narrar.*
+
+### Reconhecimento de Voz
+![Reconhecimento de Voz](screenshots/reconhecimento_voz.png)
+*Captura mostrando o reconhecimento de voz em ação.*
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Flutter**: Framework para desenvolvimento multiplataforma
@@ -78,15 +96,13 @@ O prompt é estruturado para garantir histórias:
 ## 🎯 Como Usar
 
 1. Abra o aplicativo
-2. Toque no botão do microfone
-3. Fale sua ideia para a história
-4. Aguarde a geração automática
-5. Ouça a narração ou leia o texto
-6. Use o botão de cópia para compartilhar
-
-## 🖼️ Screenshots
-
-[Aqui você deve adicionar screenshots ou GIFs do seu aplicativo em funcionamento]
+2. Escolha como quer inserir sua ideia:
+   - Toque no botão "Falar" e dite sua ideia
+   - Ou toque no campo de texto e digite sua ideia
+3. Aguarde a geração automática da história
+4. Use os botões para:
+   - Copiar o texto para compartilhar
+   - Limpar e começar uma nova história
 
 ## 📄 Licença
 
