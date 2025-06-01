@@ -16,21 +16,17 @@ História Viva é um aplicativo inovador que transforma suas ideias em história
 
 ## 📸 Screenshots
 
-### Tela Inicial
-![Tela Inicial](screenshots/tela_inicial.png)
-*Tela inicial do aplicativo, mostrando a interface limpa e intuitiva.*
+### Interface do Aplicativo
+![Interface Principal](screeshots/image.png)
+*Interface principal do aplicativo História Viva*
 
-### Modo de Digitação
-![Modo de Digitação](screenshots/modo_digitacao.png)
-*Interface de digitação, permitindo entrada manual da ideia para a história.*
+### Tela de Geração
+![Geração de História](screeshots/Captura%20de%20tela%202025-05-01%20111126.png)
+*Tela mostrando o processo de geração de histórias*
 
-### Geração de História
-![História Gerada](screenshots/historia_gerada.png)
-*Exemplo de uma história gerada pela IA, com opções de copiar e narrar.*
-
-### Reconhecimento de Voz
-![Reconhecimento de Voz](screenshots/reconhecimento_voz.png)
-*Captura mostrando o reconhecimento de voz em ação.*
+### Resultado Final
+![História Gerada](screeshots/Captura%20de%20tela%202025-05-01%20111255.png)
+*Exemplo de história gerada pela IA*
 
 ## 🛠️ Tecnologias Utilizadas
 
